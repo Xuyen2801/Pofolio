@@ -52,7 +52,7 @@ function App() {
           <p className="tagline">{hero.tagline}</p>
           <div className="hero-buttons">
             <a href="#projects" className="btn primary">View Projects</a>
-            <a href={hero.resumeLink} className="btn secondary">Download CV</a>
+            <a href={hero.resumeLink} className="btn secondary">View CV</a>
             <a href="#contact" className="btn outline">Contact</a>
           </div>
         </div>
