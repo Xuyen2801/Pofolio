@@ -3,14 +3,15 @@ import emailjs from '@emailjs/browser';
 import portfolioData from './data.json';
 import './App.css';
 
-const EMAILJS_SERVICE_ID  = 'service_tjkxaas';
+const EMAILJS_SERVICE_ID = 'service_tjkxaas';
 const EMAILJS_TEMPLATE_ID = 'template_x0vkcjs';
-const EMAILJS_PUBLIC_KEY  = 'Q9WeiguWUQ4XrmVf8';
+const EMAILJS_PUBLIC_KEY = 'Q9WeiguWUQ4XrmVf8';
+
 
 function App() {
   const { hero, about, skills, projects, experience, certifications, contact, footer } = portfolioData;
   const [activeFilter, setActiveFilter] = useState('ALL');
-
+  const [showMore, setShowMore] = useState(false);
   // Form state
   const formRef = useRef<HTMLFormElement>(null);
   const [formStatus, setFormStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
@@ -139,10 +140,11 @@ function App() {
 
       {/* 5 & 6. Experience & Certifications */}
       <section className="section experience-certs">
+
         <div className="half">
           <h2>Experience / Activities</h2>
           <div className="timeline">
-            {experience.map((exp, i) => (
+            {(showMore ? experience : experience.slice(0, 2)).map((exp, i) => (
               <div key={i} className="timeline-item">
                 <h4>{exp.title}</h4>
                 <span className="time">{exp.time}</span>
@@ -151,10 +153,11 @@ function App() {
             ))}
           </div>
         </div>
+
         <div className="half">
           <h2>Certifications</h2>
           <div className="cert-grid">
-            {certifications.map((cert, i) => (
+            {(showMore ? certifications : certifications.slice(0, 2)).map((cert, i) => (
               <a key={i} href={cert.link} target="_blank" rel="noreferrer" className="cert-card">
                 <div className="cert-logo">
                   <img src={cert.image} alt={cert.name} />
@@ -172,7 +175,14 @@ function App() {
           </div>
         </div>
       </section>
-
+      <div style={{ textAlign: 'center', marginBottom: '40px', width: '100%' }}>
+        <button
+          className="see-more-btn"
+          onClick={() => setShowMore(!showMore)}
+        >
+          {showMore ? 'Thu gọn ▲' : 'Xem thêm ▼'}
+        </button>
+      </div>
       {/* 7. Contact */}
       <section id="contact" className="section bg-light">
         <h2>Get In Touch</h2>
@@ -185,19 +195,19 @@ function App() {
 
           <form ref={formRef} className="contact-form" onSubmit={handleSubmit}>
             {/* Tên field phải khớp với {{from_name}} {{from_email}} {{message}} trong EmailJS template */}
-            <input type="text"  name="from_name"  placeholder="Your Name"    required />
-            <input type="email" name="from_email" placeholder="Your Email"   required />
-            <textarea           name="message"    placeholder="Your Message" required rows={4}></textarea>
+            <input type="text" name="from_name" placeholder="Your Name" required />
+            <input type="email" name="from_email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required rows={4}></textarea>
 
             <button
               type="submit"
               className={`btn primary send-btn ${formStatus}`}
               disabled={formStatus === 'sending'}
             >
-              {formStatus === 'idle'    && 'Send Message ✉️'}
+              {formStatus === 'idle' && 'Send Message ✉️'}
               {formStatus === 'sending' && '⏳ Đang gửi...'}
               {formStatus === 'success' && '✅ Gửi thành công!'}
-              {formStatus === 'error'   && '❌ Lỗi, thử lại nhé!'}
+              {formStatus === 'error' && '❌ Lỗi, thử lại nhé!'}
             </button>
           </form>
         </div>

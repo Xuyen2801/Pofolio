@@ -1,17 +1,17 @@
 {
   "hero": {
     "name": "Kim Xuyến",
-    "role": "Frontend Developer / Software Engineering Student",
+    "role": "Frontend Developer | Software Engineering",
     "tagline": "Hi — I'm Hồ Thị Kim Xuyến, a Software Engineering student passionate about building smart, user-friendly web interfaces with modern technologies.",
     "avatar": "/img/z7551008127655_fa8223d39d4d2992cb4cc195589d5cd4.jpg",
     "resumeLink": "https://docs.google.com/document/d/1uao3_N9603T_JghmxktOqw2SVXXZgjp5AWcPvY4YwaY/edit?tab=t.0"
   },
   "about": {
-    "major": "Kỹ thuật phần mềm (Software Engineering) — ĐH Công Nghiệp TP. HCM",
-    "year": "Sinh viên năm 3 (2023 – 2027) · GPA: 3.1/4.0",
+    "major": "Software Engineering — Ho Chi Minh City University of Industry - IUH",
+    "year": "Sinh viên năm 3 (2023 – 2027) | GPA: 3.1/4.0",
     "careerGoal": "Trở thành Frontend Developer có nền tảng kỹ thuật vững, ứng dụng AI để nâng cao trải nghiệm người dùng và tạo ra sản phẩm thông minh, thực tiễn.",
     "strengths": ["Tư duy logic & giải quyết vấn đề tốt", "Cẩn thận, tỉ mỉ trong từng chi tiết UI", "Khả năng tự học và thích nghi nhanh với công nghệ mới"],
-    "techInterests": ["Frontend Development", "UI/UX Design", "AI Integration", "Automation"]
+    "techInterests": ["FIGMA", "Java", "Spring Boot", "JavaScript","User research"]
   },
   "skills": {
     "technical": [
@@ -31,8 +31,8 @@
       "category": "WEB",
       "description": "Thiết kế và xây dựng giao diện người dùng responsive, phối hợp xây dựng backend với MongoDB để quản lý sản phẩm, người dùng và đơn hàng.",
       "techStack": ["Next.js", "React", "HTML", "CSS", "JavaScript", "MongoDB"],
-      "demoLink": "#",
-      "githubLink": "https://github.com/Xuyen2801",
+      "demoLink": "https://github.com/Xuyen2801/mens-fashion-store",
+      "githubLink": "https://github.com/Xuyen2801/mens-fashion-store",
       "role": "Trưởng nhóm · Frontend Developer",
       "image": "/img/icondenim.png"
     },
@@ -42,7 +42,7 @@
       "category": "APP",
       "description": "Hiện thực hệ thống quản lý phòng, khách hàng, đặt phòng, dịch vụ và thanh toán điện tử tích hợp MoMo API.",
       "techStack": ["Java", "SQL", "JDBC", "MoMo API", "MVC", "Figma"],
-      "demoLink": "#",
+      "demoLink": "https://github.com/Xuyen2801/daotien-hotel-management",
       "githubLink": "https://github.com/Xuyen2801/daotien-hotel-management",
       "role": "Thành viên nhóm",
       "image": "/img/daoTienApp.png"
@@ -53,8 +53,8 @@
       "category": "UIUX",
       "description": "Phân tích yêu cầu người dùng, xây dựng user flow, wireframe và thiết kế UI high-fidelity. Hoàn thiện prototype đảm bảo tính khả dụng.",
       "techStack": ["Figma", "Photoshop PS6", "UI/UX Research", "Prototyping"],
-      "demoLink": "#",
-      "githubLink": "#",
+      "demoLink": "https://www.figma.com/proto/A5PyVPmKs9CzdURjZoANQd/JPS--NH%C3%93M-24?node-id=16-342&starting-point-node-id=11%3A195",
+      "githubLink": "https://www.figma.com/proto/A5PyVPmKs9CzdURjZoANQd/JPS--NH%C3%93M-24?node-id=16-342&starting-point-node-id=11%3A195",
       "role": "Trưởng nhóm · UI/UX Designer",
       "image": "/img/JSP.png"
     },
@@ -64,7 +64,7 @@
       "category": "WEB",
       "description": "Xây dựng giao diện website với các chức năng đăng nhập, giỏ hàng và mua hàng. Thiết kế UI/UX và prototype high-fidelity trên Figma.",
       "techStack": ["HTML", "CSS", "JavaScript", "Figma"],
-      "demoLink": "#",
+      "demoLink": "https://github.com/Xuyen2801",
       "githubLink": "https://github.com/Xuyen2801",
       "role": "Trưởng nhóm",
       "image": "/img/web_DongHo.pnj.png"
@@ -75,7 +75,7 @@
       "category": "UIUX",
       "description": "Xây dựng chức năng lưu trữ xem, đặt hàng, thanh toán, dự báo dựa trên dữ liệu bán hàng.",
       "techStack": ["Figma", "Photoshop PS6", "UI/UX Research", "Prototyping"],
-      "demoLink": "https://www.figma.com/design/vNKhMGZidopRKagq9zS1NX/McDoanl-s--1-?m=auto&t=cs0hQ1fDLBdecJo1-6",
+      "demoLink": "https://www.figma.com/proto/vNKhMGZidopRKagq9zS1NX/McDoanl-s-1?node-id=362-2966&t=S2RmRh2FI2cSODN4-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=410%3A1245&show-proto-sidebar=1",
       "githubLink": "https://github.com/Xuyen2801",
       "role": "Trưởng nhóm",
       "image": "/img/mcDonal's.png"
@@ -88,10 +88,16 @@
       "desc": "Xây dựng giao diện responsive với Next.js, phối hợp backend MongoDB quản lý sản phẩm và đơn hàng."
     },
     {
+      "title": "Thành viên — Chương trình RISE 2025-2026 tại khu vực TP.HCM.",
+      "time": "12/2025 – 6/2026",
+      "desc": "Công ty giả lập RISE Co., Ltd bao gồm 04 phòng ban chuyên môn: Kinh Doanh (Sales), Tiếp thị & Truyền thông (Marketing), Nhân Sự (HR) và Tài Chính (Finance)."
+    },
+    {
       "title": "Thành viên — Hệ thống quản lý khách sạn Đào Tiên",
       "time": "6/2025 – 1/2026",
       "desc": "Hiện thực hệ thống quản lý phòng, khách hàng, đặt phòng tích hợp thanh toán MoMo."
     },
+
     {
       "title": "Trưởng nhóm — Hệ thống tìm bạn đi du lịch JPS",
       "time": "6/2025 – 1/2026",
@@ -162,7 +168,7 @@
   "contact": {
     "email": "hoxuyen280105@gmail.com",
     "github": "https://github.com/Xuyen2801",
-    "linkedin": "https://linkedin.com/in/ho-kim-xuyen"
+    "linkedin": "https://www.linkedin.com/in/xuyen-ho-953902284/"
   },
   "footer": {
     "copyright": "© 2026 Hồ Thị Kim Xuyến. All rights reserved."
