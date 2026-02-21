@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "name": "Kim Xuyen",
+    "role": "Software Engineering Student",
+    "tagline": "Passionate about testing and building user-friendly systems.",
+    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop"
+  },
+  "about": {
+    "major": "Software Engineering",
+    "year": "Junior",
+    "careerGoal": "To become a full-stack developer with a strong focus on quality assurance and software testing.",
+    "strengths": ["Detail-oriented", "Fast Learner", "Analytical Thinking"],
+    "techLiked": ["React", "Node.js", "PostgreSQL", "Cypress"]
+  },
+  "skills": {
+    "technical": [
+      { "name": "Testing (Manual / Automation)", "level": 80 },
+      { "name": "Java / JS / Python", "level": 75 },
+      { "name": "SQL", "level": 70 },
+      { "name": "Git", "level": 90 },
+      { "name": "API testing", "level": 85 },
+      { "name": "Figma", "level": 60 }
+    ],
+    "soft": [
+      "Teamwork",
+      "Communication",
+      "Problem solving"
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-Commerce Platform Test Suite",
+      "tags": ["WEB", "UI UX"],
+      "shortDesc": "An automated testing suite for a modern e-commerce web application, ensuring 100% test coverage for critical payment flows.",
+      "techStack": ["Cypress", "JavaScript", "GitHub Actions"],
+      "demoLink": "#",
+      "githubLink": "https://github.com",
+      "role": "QA Engineer",
+      "imageUrl": "https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "2",
+      "title": "Student Management System",
+      "tags": ["WEB", "APP"],
+      "shortDesc": "A full-stack application built to help universities track student enrollments, grades, and attendance in real time.",
+      "techStack": ["React", "Node.js", "PostgreSQL", "TailwindCSS"],
+      "demoLink": "#",
+      "githubLink": "https://github.com",
+      "role": "Full Stack Developer",
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "3",
+      "title": "Mobile Fitness Tracker UI",
+      "tags": ["APP", "UI UX"],
+      "shortDesc": "User interface design and prototyping for a mobile fitness tracker application focusing on seamless user experience.",
+      "techStack": ["Figma", "Prototyping", "User Research"],
+      "demoLink": "#",
+      "githubLink": "https://github.com",
+      "role": "UI/UX Designer",
+      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineering Intern",
+      "organization": "Tech Solutions Inc.",
+      "period": "Jun 2023 - Aug 2023",
+      "description": "Collaborated with the backend team to build RESTful APIs. Wrote unit tests and integration tests achieving 85% coverage."
+    },
+    {
+      "title": "Web Development Volunteer",
+      "organization": "Local Non-Profit",
+      "period": "Jan 2023 - May 2023",
+      "description": "Developed and maintained the organization's landing page, improving site performance and accessibility."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Software Testing Masterclass",
+      "issuer": "Coursera",
+      "year": "2023"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "year": "2024"
+    }
+  ],
+  "contact": {
+    "email": "kimxuyen@example.com",
+    "github": "https://github.com/kimxuyen",
+    "linkedin": "https://linkedin.com/in/kimxuyen"
+  }
+}
