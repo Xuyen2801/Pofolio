@@ -180,7 +180,7 @@ function App() {
           className="see-more-btn"
           onClick={() => setShowMore(!showMore)}
         >
-          {showMore ? 'Thu gọn ▲' : 'Xem thêm ▼'}
+          {showMore ? 'Thu gọn' : 'Xem thêm'}
         </button>
       </div>
       {/* 7. Contact */}
