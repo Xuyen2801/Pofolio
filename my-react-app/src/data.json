@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "name": "Kim Xuyến",
+    "role": "Software Engineering Student / QA Tester",
+    "tagline": "Hi — I'm Kim Xuyen, a Software Engineering student passionate about testing and building user-friendly systems.",
+    "avatar": "/img/z7534029930806_cc498c8fb7ccd4e65c562b4e2458518f.jpg",
+    "resumeLink": "/img/z7534029930806_cc498c8fb7ccd4e65c562b4e2458518f.jpg"
+  },
+  "about": {
+    "major": "Kỹ thuật phần mềm (Software Engineering)",
+    "year": "Sinh viên năm cuối",
+    "careerGoal": "Trở thành một Kỹ sư phần mềm / QA Engineer toàn diện, có khả năng đảm bảo chất lượng hệ thống và mang lại trải nghiệm tốt nhất cho người dùng.",
+    "strengths": ["Tư duy logic tốt", "Cẩn thận, tỉ mỉ trong testing", "Khả năng tự học và thích nghi nhanh"],
+    "techInterests": ["Automation Testing", "Mobile App Development", "UI/UX Design"]
+  },
+  "skills": {
+    "technical": [
+      { "name": "Testing (Manual / Automation)", "level": "80%" },
+      { "name": "Java / JS / Python", "level": "75%" },
+      { "name": "SQL", "level": "70%" },
+      { "name": "Git & GitHub", "level": "85%" },
+      { "name": "API Testing", "level": "65%" },
+      { "name": "Figma", "level": "70%" }
+    ],
+    "soft": ["Teamwork", "Communication", "Problem Solving", "Time Management"]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Hệ thống quản lý khách sạn Đào Tiên",
+      "category": "WEB",
+      "description": "Viết Test Plan và Test Case chi tiết để đảm bảo chất lượng cho phần mềm quản lý khách sạn.",
+      "techStack": ["Manual Testing", "Test Design", "QA"],
+      "demoLink": "#",
+      "githubLink": "#",
+      "role": "QA Tester",
+      "image": "/img/daoTienApp.png"
+    },
+    {
+      "id": 2,
+      "title": "Android ADB Auto Tool",
+      "category": "APP",
+      "description": "Tool tự động hóa các thao tác lặp đi lặp lại trên thiết bị Android thông qua ADB.",
+      "techStack": ["Python", "ADB", "Automation"],
+      "demoLink": "#",
+      "githubLink": "https://github.com/your-link",
+      "role": "Developer",
+      "image": "/img/web_DongHo.pnj.png"
+    },
+    {
+      "id": 3,
+      "title": "Travel Partner Matching App",
+      "category": "UIUX",
+      "description": "Thiết kế giao diện và trải nghiệm người dùng cho ứng dụng di động giúp ghép đôi những người có chung sở thích du lịch.",
+      "techStack": ["Figma", "UI/UX Research", "Prototyping"],
+      "demoLink": "#",
+      "githubLink": "#",
+      "role": "UI/UX Designer",
+      "image": "/img/JSP.png"
+    },
+     {
+      "id": 4,
+      "title": "Travel Partner Matching App",
+      "category": "UIUX",
+      "description": "Thiết kế giao diện và trải nghiệm người dùng cho ứng dụng di động giúp ghép đôi những người có chung sở thích du lịch.",
+      "techStack": ["Figma", "UI/UX Research", "Prototyping"],
+      "demoLink": "#",
+      "githubLink": "#",
+      "role": "UI/UX Designer",
+      "image": "/img/mcDonal's.png"
+    }
+  ],
+  
+  "experience": [
+    {
+      "title": "Đồ án môn học: Kiểm thử phần mềm",
+      "time": "12/2025",
+      "desc": "Xây dựng kịch bản kiểm thử toàn diện cho hệ thống lớn."
+    },
+    {
+      "title": "Thành viên CLB IT",
+      "time": "2023 - Nay",
+      "desc": "Tham gia tổ chức các buổi seminar về công nghệ và làm việc nhóm."
+    }
+  ],
+  "certifications": [
+    "Software Testing Fundamentals",
+    "Python for Automation Basics",
+    "UI/UX Design with Figma"
+  ],
+  "contact": {
+    "email": "kimxuyen@example.com",
+    "github": "https://github.com/kimxuyen",
+    "linkedin": "https://linkedin.com/in/kimxuyen"
+  },
+  "footer": {
+    "copyright": "© 2026 Kim Xuyen. All rights reserved."
+  }
+}
