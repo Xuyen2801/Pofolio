@@ -1,99 +1,170 @@
 {
   "hero": {
     "name": "Kim Xuyến",
-    "role": "Software Engineering Student / QA Tester",
-    "tagline": "Hi — I'm Kim Xuyen, a Software Engineering student passionate about testing and building user-friendly systems.",
-    "avatar": "/img/z7534029930806_cc498c8fb7ccd4e65c562b4e2458518f.jpg",
-    "resumeLink": "/img/z7534029930806_cc498c8fb7ccd4e65c562b4e2458518f.jpg"
+    "role": "Frontend Developer / Software Engineering Student",
+    "tagline": "Hi — I'm Hồ Thị Kim Xuyến, a Software Engineering student passionate about building smart, user-friendly web interfaces with modern technologies.",
+    "avatar": "../public/img/z7551008127655_fa8223d39d4d2992cb4cc195589d5cd4.jpg",
+    "resumeLink": "https://docs.google.com/document/d/1uao3_N9603T_JghmxktOqw2SVXXZgjp5AWcPvY4YwaY/edit?tab=t.0"
   },
   "about": {
-    "major": "Kỹ thuật phần mềm (Software Engineering)",
-    "year": "Sinh viên năm cuối",
-    "careerGoal": "Trở thành một Kỹ sư phần mềm / QA Engineer toàn diện, có khả năng đảm bảo chất lượng hệ thống và mang lại trải nghiệm tốt nhất cho người dùng.",
-    "strengths": ["Tư duy logic tốt", "Cẩn thận, tỉ mỉ trong testing", "Khả năng tự học và thích nghi nhanh"],
-    "techInterests": ["Automation Testing", "Mobile App Development", "UI/UX Design"]
+    "major": "Kỹ thuật phần mềm (Software Engineering) — ĐH Công Nghiệp TP. HCM",
+    "year": "Sinh viên năm 3 (2023 – 2027) · GPA: 3.1/4.0",
+    "careerGoal": "Trở thành Frontend Developer có nền tảng kỹ thuật vững, ứng dụng AI để nâng cao trải nghiệm người dùng và tạo ra sản phẩm thông minh, thực tiễn.",
+    "strengths": ["Tư duy logic & giải quyết vấn đề tốt", "Cẩn thận, tỉ mỉ trong từng chi tiết UI", "Khả năng tự học và thích nghi nhanh với công nghệ mới"],
+    "techInterests": ["Frontend Development", "UI/UX Design", "AI Integration", "Automation"]
   },
   "skills": {
     "technical": [
-      { "name": "Testing (Manual / Automation)", "level": "80%" },
-      { "name": "Java / JS / Python", "level": "75%" },
-      { "name": "SQL", "level": "70%" },
+      { "name": "HTML / CSS / JavaScript", "level": "85%" },
+      { "name": "React / Next.js", "level": "75%" },
+      { "name": "Java / Python / C", "level": "70%" },
+      { "name": "SQL / MongoDB", "level": "70%" },
       { "name": "Git & GitHub", "level": "85%" },
-      { "name": "API Testing", "level": "65%" },
-      { "name": "Figma", "level": "70%" }
+      { "name": "Figma / UI-UX Design", "level": "80%" }
     ],
-    "soft": ["Teamwork", "Communication", "Problem Solving", "Time Management"]
+    "soft": ["Teamwork", "Leadership", "Communication", "Problem Solving", "Time Management"]
   },
   "projects": [
     {
       "id": 1,
-      "title": "Hệ thống quản lý khách sạn Đào Tiên",
+      "title": "Website bán quần áo nam",
       "category": "WEB",
-      "description": "Viết Test Plan và Test Case chi tiết để đảm bảo chất lượng cho phần mềm quản lý khách sạn.",
-      "techStack": ["Manual Testing", "Test Design", "QA"],
+      "description": "Thiết kế và xây dựng giao diện người dùng responsive, phối hợp xây dựng backend với MongoDB để quản lý sản phẩm, người dùng và đơn hàng.",
+      "techStack": ["Next.js", "React", "HTML", "CSS", "JavaScript", "MongoDB"],
       "demoLink": "#",
-      "githubLink": "#",
-      "role": "QA Tester",
-      "image": "/img/daoTienApp.png"
+      "githubLink": "https://github.com/Xuyen2801",
+      "role": "Trưởng nhóm · Frontend Developer",
+      "image": "/img/icondenim.png"
     },
     {
       "id": 2,
-      "title": "Android ADB Auto Tool",
+      "title": "Hệ thống quản lý khách sạn Đào Tiên",
       "category": "APP",
-      "description": "Tool tự động hóa các thao tác lặp đi lặp lại trên thiết bị Android thông qua ADB.",
-      "techStack": ["Python", "ADB", "Automation"],
+      "description": "Hiện thực hệ thống quản lý phòng, khách hàng, đặt phòng, dịch vụ và thanh toán điện tử tích hợp MoMo API.",
+      "techStack": ["Java", "SQL", "JDBC", "MoMo API", "MVC", "Figma"],
       "demoLink": "#",
-      "githubLink": "https://github.com/your-link",
-      "role": "Developer",
-      "image": "/img/web_DongHo.pnj.png"
+      "githubLink": "https://github.com/Xuyen2801/daotien-hotel-management",
+      "role": "Thành viên nhóm",
+      "image": "/img/daoTienApp.png"
     },
     {
       "id": 3,
-      "title": "Travel Partner Matching App",
+      "title": "Hệ thống tìm bạn đi du lịch — JPS",
       "category": "UIUX",
-      "description": "Thiết kế giao diện và trải nghiệm người dùng cho ứng dụng di động giúp ghép đôi những người có chung sở thích du lịch.",
-      "techStack": ["Figma", "UI/UX Research", "Prototyping"],
+      "description": "Phân tích yêu cầu người dùng, xây dựng user flow, wireframe và thiết kế UI high-fidelity. Hoàn thiện prototype đảm bảo tính khả dụng.",
+      "techStack": ["Figma", "Photoshop PS6", "UI/UX Research", "Prototyping"],
       "demoLink": "#",
       "githubLink": "#",
-      "role": "UI/UX Designer",
+      "role": "Trưởng nhóm · UI/UX Designer",
       "image": "/img/JSP.png"
     },
-     {
-      "id": 4,
-      "title": "Travel Partner Matching App",
-      "category": "UIUX",
-      "description": "Thiết kế giao diện và trải nghiệm người dùng cho ứng dụng di động giúp ghép đôi những người có chung sở thích du lịch.",
-      "techStack": ["Figma", "UI/UX Research", "Prototyping"],
-      "demoLink": "#",
-      "githubLink": "#",
-      "role": "UI/UX Designer",
-      "image": "/img/mcDonal's.png"
-    }
-  ],
-  
-  "experience": [
     {
-      "title": "Đồ án môn học: Kiểm thử phần mềm",
-      "time": "12/2025",
-      "desc": "Xây dựng kịch bản kiểm thử toàn diện cho hệ thống lớn."
+      "id": 4,
+      "title": "Website bán đồng hồ",
+      "category": "WEB",
+      "description": "Xây dựng giao diện website với các chức năng đăng nhập, giỏ hàng và mua hàng. Thiết kế UI/UX và prototype high-fidelity trên Figma.",
+      "techStack": ["HTML", "CSS", "JavaScript", "Figma"],
+      "demoLink": "#",
+      "githubLink": "https://github.com/Xuyen2801",
+      "role": "Trưởng nhóm",
+      "image": "/img/web_DongHo.pnj.png"
     },
     {
-      "title": "Thành viên CLB IT",
-      "time": "2023 - Nay",
-      "desc": "Tham gia tổ chức các buổi seminar về công nghệ và làm việc nhóm."
+      "id": 5,
+      "title": "Hệ thống cửa hàng thức ăn nhanh",
+      "category": "UIUX",
+      "description": "Xây dựng chức năng lưu trữ xem, đặt hàng, thanh toán, dự báo dựa trên dữ liệu bán hàng.",
+      "techStack": ["Figma", "Photoshop PS6", "UI/UX Research", "Prototyping"],
+      "demoLink": "https://www.figma.com/design/vNKhMGZidopRKagq9zS1NX/McDoanl-s--1-?m=auto&t=cs0hQ1fDLBdecJo1-6",
+      "githubLink": "https://github.com/Xuyen2801",
+      "role": "Trưởng nhóm",
+      "image": "../public/img/mcDonal's.png"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Trưởng nhóm — Website bán quần áo nam",
+      "time": "1/2026 – 4/2026",
+      "desc": "Xây dựng giao diện responsive với Next.js, phối hợp backend MongoDB quản lý sản phẩm và đơn hàng."
+    },
+    {
+      "title": "Thành viên — Hệ thống quản lý khách sạn Đào Tiên",
+      "time": "6/2025 – 1/2026",
+      "desc": "Hiện thực hệ thống quản lý phòng, khách hàng, đặt phòng tích hợp thanh toán MoMo."
+    },
+    {
+      "title": "Trưởng nhóm — Hệ thống tìm bạn đi du lịch JPS",
+      "time": "6/2025 – 1/2026",
+      "desc": "Thiết kế UI/UX high-fidelity, xây dựng user flow và prototype trên Figma."
+    },
+    {
+      "title": "Thành viên — Donate a Book · Change a Life",
+      "time": "10/2024 – 6/2025",
+      "desc": "Tổ chức thu âm, biên tập hơn 30 đầu sách nói cho người khiếm thị, bàn giao cho Thư viện TP. HCM."
+    },
+    {
+      "title": "Nhân viên Kiểm toán — Công ty TNHH Nhà trọ Út Hằng",
+      "time": "4/2024 – 8/2024",
+      "desc": "Đối soát dòng tiền, xử lý chênh lệch số liệu và lập báo cáo tài chính định kỳ."
     }
   ],
   "certifications": [
-    "Software Testing Fundamentals",
-    "Python for Automation Basics",
-    "UI/UX Design with Figma"
+    {
+      "name": "Gimini Certificated Educator",
+      "issuer": "Google",
+      "issued": "10-2-2026",
+      "expires": "Không hết hạn",
+      "image": "../public/img/ginimi.png",
+      "link": "https://edu.google.accredible.com/0349196a-2548-4eb3-ba8f-32d4e7df35aa#acc.QvR2D8AE"
+    },
+    {
+      "name": "AI Engineering",
+      "issuer": "Coursera",
+      "issued": "12-02-2026",
+      "expires": "Không hết hạn",
+      "image": "../public/img/AI-ct.png",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/8HCPO2PDDLCI"
+    },
+    {
+      "name": "Responsive Web Design",
+      "issuer": "FreeCodeCamp",
+      "issued": "16-02-2026",
+      "expires": "Không hết hạn",
+      "image": "/img/Repo-ct.png",
+      "link": "https://www.freecodecamp.org/certification/kimxuyen0501/responsive-web-design-v9"
+    },
+    {
+      "name": "AI for Web Developers",
+      "issuer": "Coursera",
+      "issued": "2023",
+      "expires": "Không hết hạn",
+      "image": "../public/img/AIofWeb.png",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/2SAYO789HKDG"
+    },
+    
+     {
+      "name": "Certificate of Completion - Donate A Book-Change A Life",
+      "issuer": "VIETSEEDS FOUNDATION",
+      "issued": "2025",
+      "expires": "Không hết hạn",
+      "image": "../public/img/VS2.png",
+      "link": "https://www.facebook.com/donateabookchangealife"
+    },
+    {
+      "name": "Certificate of Scholarship",
+      "issuer": "VIETSEEDS FOUNDATION",
+      "issued": "29-10-2023",
+      "expires": "Không hết hạn",
+      "image": "../public/img/VS1.png",
+      "link": "https://www.facebook.com/Vietseed"
+    }
   ],
   "contact": {
-    "email": "kimxuyen@example.com",
-    "github": "https://github.com/kimxuyen",
-    "linkedin": "https://linkedin.com/in/kimxuyen"
+    "email": "hoxuyen280105@gmail.com",
+    "github": "https://github.com/Xuyen2801",
+    "linkedin": "https://linkedin.com/in/ho-kim-xuyen"
   },
   "footer": {
-    "copyright": "© 2026 Kim Xuyen. All rights reserved."
+    "copyright": "© 2026 Hồ Thị Kim Xuyến. All rights reserved."
   }
 }

@@ -1,13 +1,44 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import portfolioData from './data.json';
 import './App.css';
 
+const EMAILJS_SERVICE_ID  = 'service_tjkxaas';
+const EMAILJS_TEMPLATE_ID = 'template_x0vkcjs';
+const EMAILJS_PUBLIC_KEY  = 'Q9WeiguWUQ4XrmVf8';
+
 function App() {
   const { hero, about, skills, projects, experience, certifications, contact, footer } = portfolioData;
-  const [activeFilter, setActiveFilter] = useState('ALL'); // State cho bộ lọc Project
+  const [activeFilter, setActiveFilter] = useState('ALL');
 
-  const filteredProjects = activeFilter === 'ALL' 
-    ? projects 
+  // Form state
+  const formRef = useRef<HTMLFormElement>(null);
+  const [formStatus, setFormStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formRef.current) return;
+
+    setFormStatus('sending');
+    try {
+      await emailjs.sendForm(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        EMAILJS_PUBLIC_KEY
+      );
+      setFormStatus('success');
+      formRef.current.reset();
+      setTimeout(() => setFormStatus('idle'), 4000);
+    } catch (err) {
+      console.error(err);
+      setFormStatus('error');
+      setTimeout(() => setFormStatus('idle'), 4000);
+    }
+  };
+
+  const filteredProjects = activeFilter === 'ALL'
+    ? projects
     : projects.filter(p => p.category === activeFilter);
 
   return (
@@ -71,13 +102,13 @@ function App() {
         </div>
       </section>
 
-      {/* 4. Projects (Quan trọng nhất) */}
+      {/* 4. Projects */}
       <section id="projects" className="section bg-light">
         <h2>Featured Projects 🔥</h2>
         <div className="project-filters">
           {['ALL', 'WEB', 'APP', 'UIUX'].map(cat => (
-            <button 
-              key={cat} 
+            <button
+              key={cat}
               className={activeFilter === cat ? 'active' : ''}
               onClick={() => setActiveFilter(cat)}
             >
@@ -106,7 +137,7 @@ function App() {
         </div>
       </section>
 
-      {/* 5 & 6. Experience & Certifications (Gộp layout cho gọn) */}
+      {/* 5 & 6. Experience & Certifications */}
       <section className="section experience-certs">
         <div className="half">
           <h2>Experience / Activities</h2>
@@ -122,9 +153,23 @@ function App() {
         </div>
         <div className="half">
           <h2>Certifications</h2>
-          <ul className="cert-list">
-            {certifications.map((cert, i) => <li key={i}>🏆 {cert}</li>)}
-          </ul>
+          <div className="cert-grid">
+            {certifications.map((cert, i) => (
+              <a key={i} href={cert.link} target="_blank" rel="noreferrer" className="cert-card">
+                <div className="cert-logo">
+                  <img src={cert.image} alt={cert.name} />
+                </div>
+                <div className="cert-info">
+                  <p className="cert-name">{cert.name}</p>
+                  <p className="cert-issuer">{cert.issuer}</p>
+                  <div className="cert-dates">
+                    <span>📅 Cấp: {cert.issued}</span>
+                    <span>⏳ HH: {cert.expires}</span>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -137,11 +182,23 @@ function App() {
             <p>GitHub: <a href={contact.github} target="_blank" rel="noreferrer">Profile</a></p>
             <p>LinkedIn: <a href={contact.linkedin} target="_blank" rel="noreferrer">Profile</a></p>
           </div>
-          <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" className="btn primary">Send Message</button>
+
+          <form ref={formRef} className="contact-form" onSubmit={handleSubmit}>
+            {/* Tên field phải khớp với {{from_name}} {{from_email}} {{message}} trong EmailJS template */}
+            <input type="text"  name="from_name"  placeholder="Your Name"    required />
+            <input type="email" name="from_email" placeholder="Your Email"   required />
+            <textarea           name="message"    placeholder="Your Message" required rows={4}></textarea>
+
+            <button
+              type="submit"
+              className={`btn primary send-btn ${formStatus}`}
+              disabled={formStatus === 'sending'}
+            >
+              {formStatus === 'idle'    && 'Send Message ✉️'}
+              {formStatus === 'sending' && '⏳ Đang gửi...'}
+              {formStatus === 'success' && '✅ Gửi thành công!'}
+              {formStatus === 'error'   && '❌ Lỗi, thử lại nhé!'}
+            </button>
           </form>
         </div>
       </section>
