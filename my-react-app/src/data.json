@@ -3,7 +3,7 @@
     "name": "Kim Xuyến",
     "role": "Frontend Developer / Software Engineering Student",
     "tagline": "Hi — I'm Hồ Thị Kim Xuyến, a Software Engineering student passionate about building smart, user-friendly web interfaces with modern technologies.",
-    "avatar": "../public/img/z7551008127655_fa8223d39d4d2992cb4cc195589d5cd4.jpg",
+    "avatar": "/img/z7551008127655_fa8223d39d4d2992cb4cc195589d5cd4.jpg",
     "resumeLink": "https://docs.google.com/document/d/1uao3_N9603T_JghmxktOqw2SVXXZgjp5AWcPvY4YwaY/edit?tab=t.0"
   },
   "about": {
@@ -78,7 +78,7 @@
       "demoLink": "https://www.figma.com/design/vNKhMGZidopRKagq9zS1NX/McDoanl-s--1-?m=auto&t=cs0hQ1fDLBdecJo1-6",
       "githubLink": "https://github.com/Xuyen2801",
       "role": "Trưởng nhóm",
-      "image": "../public/img/mcDonal's.png"
+      "image": "/img/mcDonal's.png"
     }
   ],
   "experience": [
@@ -114,7 +114,7 @@
       "issuer": "Google",
       "issued": "10-2-2026",
       "expires": "Không hết hạn",
-      "image": "../public/img/ginimi.png",
+      "image": "/img/ginimi.png",
       "link": "https://edu.google.accredible.com/0349196a-2548-4eb3-ba8f-32d4e7df35aa#acc.QvR2D8AE"
     },
     {
@@ -122,7 +122,7 @@
       "issuer": "Coursera",
       "issued": "12-02-2026",
       "expires": "Không hết hạn",
-      "image": "../public/img/AI-ct.png",
+      "image": "/img/AI-ct.png",
       "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/8HCPO2PDDLCI"
     },
     {
@@ -138,7 +138,7 @@
       "issuer": "Coursera",
       "issued": "2023",
       "expires": "Không hết hạn",
-      "image": "../public/img/AIofWeb.png",
+      "image": "/img/AIofWeb.png",
       "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/2SAYO789HKDG"
     },
     
@@ -147,7 +147,7 @@
       "issuer": "VIETSEEDS FOUNDATION",
       "issued": "2025",
       "expires": "Không hết hạn",
-      "image": "../public/img/VS2.png",
+      "image": "/img/VS2.png",
       "link": "https://www.facebook.com/donateabookchangealife"
     },
     {
@@ -155,7 +155,7 @@
       "issuer": "VIETSEEDS FOUNDATION",
       "issued": "29-10-2023",
       "expires": "Không hết hạn",
-      "image": "../public/img/VS1.png",
+      "image": "/img/VS1.png",
       "link": "https://www.facebook.com/Vietseed"
     }
   ],
