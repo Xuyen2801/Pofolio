@@ -1,169 +1,245 @@
 {
   "hero": {
     "name": "Kim Xuyến",
-    "role": "Frontend Developer | Software Engineering",
-    "tagline": "Hi — I'm Hồ Thị Kim Xuyến, a Software Engineering student passionate about building smart, user-friendly web interfaces with modern technologies.",
+    "role": "Frontend Developer with Testing Mindset",
+    "tagline": "I build fast, accessible, and user-focused web applications. Passionate about performance, clean UI, and solving real user problems through thoughtful engineering.",
     "avatar": "/img/z7551008127655_fa8223d39d4d2992cb4cc195589d5cd4.jpg",
     "resumeLink": "https://drive.google.com/file/d/1GDWOhVD7nZG7GzUXTxA8Ggj_1Elfmmq_/view?usp=drivesdk"
   },
   "about": {
-    "major": "Software Engineering — Ho Chi Minh City University of Industry - IUH",
-    "year": "Sinh viên năm 3 (2023 – 2027) | GPA: 3.1/4.0",
-    "careerGoal": "Trở thành Frontend Developer có nền tảng kỹ thuật vững, ứng dụng AI để nâng cao trải nghiệm người dùng và tạo ra sản phẩm thông minh, thực tiễn.",
-    "strengths": ["Tư duy logic & giải quyết vấn đề tốt", "Cẩn thận, tỉ mỉ trong từng chi tiết UI", "Khả năng tự học và thích nghi nhanh với công nghệ mới"],
-    "techInterests": ["FIGMA", "Java", "Spring Boot", "JavaScript","User research"]
+    "major": "Software Engineering — Ho Chi Minh City University of Industry (IUH)",
+    "year": "3rd Year Student | GPA: 3.1/4.0",
+    "careerGoal": "To become a Frontend Engineer with strong technical foundations and a testing mindset, leveraging AI to build intelligent and impactful user experiences.",
+    "strengths": [
+      "Strong analytical thinking and problem solving",
+      "Attention to detail in UI and user experience",
+      "Fast learner with growth mindset"
+    ],
+    "techInterests": [
+      "React",
+      "Next.js",
+      "Testing",
+      "Performance Optimization",
+      "AI for Web"
+    ]
   },
   "skills": {
     "technical": [
-      { "name": "HTML / CSS / JavaScript", "level": "85%" },
-      { "name": "React / Next.js", "level": "75%" },
-      { "name": "Java / Python / C", "level": "70%" },
-      { "name": "SQL / MongoDB", "level": "70%" },
-      { "name": "Git & GitHub", "level": "85%" },
-      { "name": "Figma / UI-UX Design", "level": "80%" }
+      {
+        "name": "HTML / CSS / JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "Testing & Debugging",
+        "level": "70%"
+      },
+      {
+        "name": "React / Next.js",
+        "level": "75%"
+      },
+      {
+        "name": "Java / Python / C",
+        "level": "70%"
+      },
+      {
+        "name": "SQL / MongoDB",
+        "level": "70%"
+      },
+      {
+        "name": "Git & GitHub",
+        "level": "85%"
+      },
+      {
+        "name": "Figma / UI-UX Design",
+        "level": "80%"
+      }
     ],
-    "soft": ["Teamwork", "Leadership", "Communication", "Problem Solving", "Time Management"]
+    "soft": [
+      "Teamwork",
+      "Leadership",
+      "Communication",
+      "Problem Solving",
+      "Time Management"
+    ]
   },
+  "learning": [
+    "React performance optimization",
+    "Accessibility best practices (WCAG)",
+    "Automation testing (Playwright / Cypress)",
+    "AI integration for web apps"
+  ],
   "projects": [
     {
       "id": 1,
-      "title": "Website bán quần áo nam",
+      "title": "Men’s Clothing E-commerce Website",
       "category": "WEB",
-      "description": "Thiết kế và xây dựng giao diện người dùng responsive, phối hợp xây dựng backend với MongoDB để quản lý sản phẩm, người dùng và đơn hàng.",
-      "techStack": ["Next.js", "React", "HTML", "CSS", "JavaScript", "MongoDB"],
+      "description": "Designed and developed a responsive user interface and collaborated on backend integration with MongoDB to manage products, users, and orders.",
+      "techStack": [
+        "Next.js",
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "MongoDB",
+        "Accessible UI (WCAG considerations)"
+      ],
       "demoLink": "https://github.com/Xuyen2801/mens-fashion-store",
       "githubLink": "https://github.com/Xuyen2801/mens-fashion-store",
-      "role": "Trưởng nhóm · Frontend Developer",
+      "role": "Team Lead · Frontend Developer",
       "image": "/img/icondenim.png"
     },
     {
       "id": 2,
-      "title": "Hệ thống quản lý khách sạn Đào Tiên",
+      "title": "Dao Tien Hotel Management System",
       "category": "APP",
-      "description": "Hiện thực hệ thống quản lý phòng, khách hàng, đặt phòng, dịch vụ và thanh toán điện tử tích hợp MoMo API.",
-      "techStack": ["Java", "SQL", "JDBC", "MoMo API", "MVC", "Figma"],
+      "description": "Implemented a hotel management system including room management, customer handling, booking, services, and electronic payment integration using the MoMo API.",
+      "techStack": [
+        "Java",
+        "SQL",
+        "JDBC",
+        "MoMo API",
+        "MVC",
+        "Figma"
+      ],
       "demoLink": "https://github.com/Xuyen2801/daotien-hotel-management",
       "githubLink": "https://github.com/Xuyen2801/daotien-hotel-management",
-      "role": "Thành viên nhóm",
+      "role": "Team Member",
       "image": "/img/appDaoTien.png"
     },
     {
       "id": 3,
-      "title": "Hệ thống tìm bạn đi du lịch — JPS",
+      "title": "Travel Companion Finder System — JPS",
       "category": "UIUX",
-      "description": "Phân tích yêu cầu người dùng, xây dựng user flow, wireframe và thiết kế UI high-fidelity. Hoàn thiện prototype đảm bảo tính khả dụng.",
-      "techStack": ["Figma", "Photoshop PS6", "UI/UX Research", "Prototyping"],
+      "description": "Analyzed user requirements, created user flows and wireframes, and designed high-fidelity UI. Delivered a usability-focused prototype.",
+      "techStack": [
+        "Figma",
+        "Photoshop PS6",
+        "UI/UX Research",
+        "Prototyping",
+        "State Management"
+      ],
       "demoLink": "https://www.figma.com/proto/A5PyVPmKs9CzdURjZoANQd/JPS--NH%C3%93M-24?node-id=16-342&starting-point-node-id=11%3A195",
       "githubLink": "https://www.figma.com/proto/A5PyVPmKs9CzdURjZoANQd/JPS--NH%C3%93M-24?node-id=16-342&starting-point-node-id=11%3A195",
-      "role": "Trưởng nhóm · UI/UX Designer",
+      "role": "Team Lead · UI/UX Designer",
       "image": "/img/JSP.png"
     },
     {
       "id": 4,
-      "title": "Website bán đồng hồ",
+      "title": "Watch E-commerce Website",
       "category": "WEB",
-      "description": "Xây dựng giao diện website với các chức năng đăng nhập, giỏ hàng và mua hàng. Thiết kế UI/UX và prototype high-fidelity trên Figma.",
-      "techStack": ["HTML", "CSS", "JavaScript", "Figma"],
+      "description": "Built a website interface with login, shopping cart, and purchasing features, and designed high-fidelity UI/UX prototypes using Figma.",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Figma"
+      ],
       "demoLink": "https://github.com/Xuyen2801",
       "githubLink": "https://github.com/Xuyen2801",
-      "role": "Trưởng nhóm",
+      "role": "Team Lead · Frontend Developer",
       "image": "/img/web_DongHo.pnj.png"
     },
     {
       "id": 5,
-      "title": "Hệ thống cửa hàng thức ăn nhanh",
+      "title": "Fast Food Store System",
       "category": "UIUX",
-      "description": "Xây dựng chức năng lưu trữ xem, đặt hàng, thanh toán, dự báo dựa trên dữ liệu bán hàng.",
-      "techStack": ["Figma", "Photoshop PS6", "UI/UX Research", "Prototyping"],
-      "demoLink": "https://www.figma.com/proto/vNKhMGZidopRKagq9zS1NX/McDoanl-s-1?node-id=362-2966&t=S2RmRh2FI2cSODN4-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=410%3A1245&show-proto-sidebar=1",
+      "description": "Designed features for browsing, ordering, payment, and sales forecasting based on transaction data, focusing on usability.",
+      "techStack": [
+        "Figma",
+        "Accessibility",
+        "Photoshop PS6",
+        "UI/UX Research",
+        "Accessible UI (WCAG considerations)",
+        "Prototyping"
+      ],
+      "demoLink": "https://www.figma.com/proto/vNKhMGZidopRKagq9zS1NX/McDoanl-s-1?node-id=362-2966",
       "githubLink": "https://github.com/Xuyen2801",
-      "role": "Trưởng nhóm",
+      "role": "Team Lead",
       "image": "/img/mcDonal's.png"
     }
   ],
   "experience": [
     {
-      "title": "Trưởng nhóm — Website bán quần áo nam",
-      "time": "1/2026 – 4/2026",
-      "desc": "Xây dựng giao diện responsive với Next.js, phối hợp backend MongoDB quản lý sản phẩm và đơn hàng."
+      "title": "Team Lead — Men’s Clothing E-commerce Website",
+      "time": "Jan 2026 – Apr 2026",
+      "desc": "Developed a responsive interface using Next.js and collaborated with backend using MongoDB to manage products and orders."
     },
     {
-      "title": "Thành viên — Chương trình RISE 2025-2026 tại khu vực TP.HCM.",
-      "time": "12/2025 – 6/2026",
-      "desc": "Công ty giả lập RISE Co., Ltd bao gồm 04 phòng ban chuyên môn: Kinh Doanh (Sales), Tiếp thị & Truyền thông (Marketing), Nhân Sự (HR) và Tài Chính (Finance)."
+      "title": "Member — RISE Program 2025–2026 (Ho Chi Minh City)",
+      "time": "Dec 2025 – Jun 2026",
+      "desc": "Participated in a simulated company environment (RISE Co., Ltd) working across departments including Sales, Marketing & Communications, HR, and Finance."
     },
     {
-      "title": "Thành viên — Hệ thống quản lý khách sạn Đào Tiên",
-      "time": "6/2025 – 1/2026",
-      "desc": "Hiện thực hệ thống quản lý phòng, khách hàng, đặt phòng tích hợp thanh toán MoMo."
-    },
-
-    {
-      "title": "Trưởng nhóm — Hệ thống tìm bạn đi du lịch JPS",
-      "time": "6/2025 – 1/2026",
-      "desc": "Thiết kế UI/UX high-fidelity, xây dựng user flow và prototype trên Figma."
+      "title": "Team Member — Dao Tien Hotel Management System",
+      "time": "Jun 2025 – Jan 2026",
+      "desc": "Implemented features for room, customer, and booking management with integrated MoMo payment system."
     },
     {
-      "title": "Thành viên — Donate a Book · Change a Life",
-      "time": "10/2024 – 6/2025",
-      "desc": "Tổ chức thu âm, biên tập hơn 30 đầu sách nói cho người khiếm thị, bàn giao cho Thư viện TP. HCM."
+      "title": "Team Lead — Travel Companion Finder System (JPS)",
+      "time": "Jun 2025 – Jan 2026",
+      "desc": "Designed high-fidelity UI/UX, created user flows, and built interactive prototypes using Figma."
     },
     {
-      "title": "Nhân viên Kiểm toán — Công ty TNHH Nhà trọ Út Hằng",
-      "time": "4/2024 – 8/2024",
-      "desc": "Đối soát dòng tiền, xử lý chênh lệch số liệu và lập báo cáo tài chính định kỳ."
+      "title": "Volunteer — Donate a Book · Change a Life",
+      "time": "Oct 2024 – Jun 2025",
+      "desc": "Recorded and edited over 30 audiobooks for visually impaired users and delivered them to the Ho Chi Minh City Library."
+    },
+    {
+      "title": "Audit Assistant — Ut Hang Boarding House Co., Ltd",
+      "time": "Apr 2024 – Aug 2024",
+      "desc": "Reconciled financial records, resolved discrepancies, and prepared periodic financial reports."
     }
   ],
   "certifications": [
     {
-      "name": "Gimini Certificated Educator",
-      "issuer": "Google",
-      "issued": "10-2-2026",
-      "expires": "Không hết hạn",
-      "image": "/img/ginimi.png",
-      "link": "https://edu.google.accredible.com/0349196a-2548-4eb3-ba8f-32d4e7df35aa#acc.QvR2D8AE"
-    },
-    {
-      "name": "AI Engineering",
-      "issuer": "Coursera",
-      "issued": "12-02-2026",
-      "expires": "Không hết hạn",
-      "image": "/img/AI-ct.png",
-      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/8HCPO2PDDLCI"
-    },
-    {
-      "name": "Responsive Web Design",
+      "name": "Responsive Web Design Certification",
       "issuer": "FreeCodeCamp",
-      "issued": "16-02-2026",
-      "expires": "Không hết hạn",
+      "issued": "Feb 16, 2026",
+      "expires": "No Expiration",
       "image": "/img/Repo-ct.png",
       "link": "https://www.freecodecamp.org/certification/kimxuyen0501/responsive-web-design-v9"
     },
     {
+      "name": "AI Engineering Specialization",
+      "issuer": "Coursera",
+      "issued": "Feb 12, 2026",
+      "expires": "No Expiration",
+      "image": "/img/AI-ct.png",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/8HCPO2PDDLCI"
+    },
+    
+    {
       "name": "AI for Web Developers",
       "issuer": "Coursera",
       "issued": "2023",
-      "expires": "Không hết hạn",
+      "expires": "No Expiration",
       "image": "/img/AIofWeb.png",
       "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/2SAYO789HKDG"
+    },{
+      "name": "Gemini Certified Educator",
+      "issuer": "Google",
+      "issued": "Feb 10, 2026",
+      "expires": "No Expiration",
+      "image": "/img/ginimi.png",
+      "link": "https://edu.google.accredible.com/0349196a-2548-4eb3-ba8f-32d4e7df35aa#acc.QvR2D8AE"
     },
-    
-     {
-      "name": "Certificate of Completion - Donate A Book-Change A Life",
-      "issuer": "VIETSEEDS FOUNDATION",
+    {
+      "name": "Certificate of Completion — Donate a Book, Change a Life",
+      "issuer": "VietSeeds Foundation",
       "issued": "2025",
-      "expires": "Không hết hạn",
+      "expires": "No Expiration",
       "image": "/img/VS2.png",
       "link": "https://www.facebook.com/donateabookchangealife"
     },
     {
-      "name": "Certificate of Scholarship",
-      "issuer": "VIETSEEDS FOUNDATION",
-      "issued": "29-10-2023",
-      "expires": "Không hết hạn",
+      "name": "Scholarship Certificate",
+      "issuer": "VietSeeds Foundation",
+      "issued": "Oct 29, 2023",
+      "expires": "No Expiration",
       "image": "/img/VS1.png",
       "link": "https://www.facebook.com/Vietseed"
     }
+    
   ],
   "contact": {
     "email": "hoxuyen280105@gmail.com",
@@ -171,6 +247,6 @@
     "linkedin": "https://www.linkedin.com/in/xuyen-ho-953902284/"
   },
   "footer": {
-    "copyright": "© 2026 Hồ Thị Kim Xuyến. All rights reserved."
+    "copyright": "© 2026 Kim Xuyen — Built with React & Next.js"
   }
 }

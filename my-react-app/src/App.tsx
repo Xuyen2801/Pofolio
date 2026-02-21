@@ -65,15 +65,15 @@ function App() {
       <section id="about" className="section bg-light">
         <h2>About Me</h2>
         <div className="about-grid">
-          <div><strong>Ngành học:</strong> {about.major}</div>
-          <div><strong>Năm học:</strong> {about.year}</div>
-          <div><strong>Mục tiêu:</strong> {about.careerGoal}</div>
+          <div><strong>Major:</strong> {about.major}</div>
+          <div><strong>Academic Year:</strong> {about.year}</div>
+          <div><strong>Career Goal:</strong> {about.careerGoal}</div>
           <div>
-            <strong>Điểm mạnh:</strong>
+            <strong>Strengths:</strong>
             <ul>{about.strengths.map((str, i) => <li key={i}>{str}</li>)}</ul>
           </div>
           <div>
-            <strong>Công nghệ yêu thích:</strong>
+            <strong>Tech Interests:</strong>
             <div className="tags">{about.techInterests.map((tech, i) => <span key={i} className="tag">{tech}</span>)}</div>
           </div>
         </div>
@@ -102,10 +102,18 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="section">
+        <h2>Currently Learning</h2>
+        <div className="tags">
+          {portfolioData.learning?.map((item, i) => (
+            <span key={i} className="tag">{item}</span>
+          ))}
+        </div>
+      </section>
 
       {/* 4. Projects */}
       <section id="projects" className="section bg-light">
-        <h2>Featured Projects 🔥</h2>
+        <h2>Featured Projects</h2>
         <div className="project-filters">
           {['ALL', 'WEB', 'APP', 'UIUX'].map(cat => (
             <button
@@ -166,8 +174,8 @@ function App() {
                   <p className="cert-name">{cert.name}</p>
                   <p className="cert-issuer">{cert.issuer}</p>
                   <div className="cert-dates">
-                    <span>📅 Cấp: {cert.issued}</span>
-                    <span>⏳ HH: {cert.expires}</span>
+                    <span>📅 Issued: {cert.issued}</span>
+                    <span>⏳ Expires: {cert.expires}</span>
                   </div>
                 </div>
               </a>
@@ -180,7 +188,7 @@ function App() {
           className="see-more-btn"
           onClick={() => setShowMore(!showMore)}
         >
-          {showMore ? 'Thu gọn' : 'Xem thêm'}
+          {showMore ? 'Show Less' : 'Show More'}
         </button>
       </div>
       {/* 7. Contact */}
